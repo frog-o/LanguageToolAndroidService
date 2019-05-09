@@ -66,7 +66,9 @@ public class SpellCheckerSettingsFragment extends PreferenceFragment {
     }
 
     private void setVersion() {
-        Date buildDate = BuildConfig.buildTime;
+		Date buildDate = new Date("5/9/19");
+		// you can unrem the following to build with later version of gradle 
+        //Date buildDate = BuildConfig.buildTime;
         Preference version = findPreference("version");
         String v = String.format(getResources().getString(R.string.version_text), getVersion(), buildDate);
         version.setSummary(v);

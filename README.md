@@ -1,7 +1,12 @@
 
 --- Introduction
 
-This a spell checking service for Android 4.4 or higher that uses LanguageTool as backend.
+This a spell checking service for Android 4.4 or higher that uses LanguageTool as backend it is a fork from 
+
+https://github.com/Softcatala/LanguageToolAndroidService.
+
+I am hoping to add new features to it and make sure it compiles under AIde(An IDE found on GooglePlay)  
+
 
 See notes: http://www.softcatala.org/wiki/Usuari:Jmas/Experiements_Corrector_Softcatala_Android (Catalan)
 
