@@ -5,12 +5,13 @@ This a spell checking service for Android 4.4 or higher that uses LanguageTool a
 
 https://github.com/Softcatala/LanguageToolAndroidService.
 
-I am hoping to add new features to it and make sure it compiles under AIde(An IDE found on GooglePlay)  
-
+I am hoping to add new features to it that they would want to merge in and I am also tring to make sure it compiles with AIDE(An IDE found on GooglePlay)  
+I am not affiliated with LANGUAGETOOL in any way.
 
 See notes: http://www.softcatala.org/wiki/Usuari:Jmas/Experiements_Corrector_Softcatala_Android (Catalan)
 
-To enable debugging, you need to call 'android.os.Debug.waitForDebugger()'		
+If you use AIde  you don't need to call 'android.os.Debug.waitForDebugger()' it causes my tablet to reboot.		
+Just run the welcome activity!
 
 -- Adding a new language
 
@@ -35,5 +36,4 @@ Implementations:
 
 -- Contact Information
 Jordi Mas - jmas@softcatala.org
-
 
